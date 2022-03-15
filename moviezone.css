@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    margin: 5px;
+}
+
+.head img{
+    position: relative;
+    width: 16%;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: -14px;
+}
+
+.no1 img{
+    width: 150;
+    height: 200;
+}
+
+.home-image{
+    background-image: url(assets/money3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 90vh;
+    position: relative;
+    filter: brightness();
+    border-radius: 20px;
+}
+
+.home-image-text{
+    color: aliceblue;
+    position: relative;
+    width: 30%;
+    top: 13em;
+    left: 3em;
+    z-index: 1;
+}
+
+.money{
+    width: 100%;
+    height: auto;
+}
+
+.play-button{
+    background-color: red;
+    color: black;
+    border-radius:4px;
+    width: 70px;
+    padding: 5px 20px 5px;
+    font-size: 20px;
+}
+
+.play-button img{
+    margin-top: 0px;
+    padding-left: 5px;
+    width: 23px;
+    position: absolute;
+}
+
+.tr{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.tr img{
+    margin: 3px;
+    margin-left: 8px;
+
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
+/* .no1,.no2,.no3,.no4,.no5,.no6,.no7{
+    display: flex;
+    overflow-y: hidden;
+} */
+
+/* .no1,.no2,.no3,.no4,.no5,.no6,.no7 img{
+    margin: 5px;
+} */
+
+/* .no1 img{
+    margin: 5px;
+} */
+
+.no{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.no img{
+    margin: 3px;
+    margin-left: 8px;
+}
+
+/* .no1{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.no1 img{
+    mar
+} */
+
+.orginal .tr img{
+    border-radius: 5px;
+
+}
+
+.orginal .tr img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
+}
+
+.orginal .no img{
+    border-radius: 5px;
+
+}
+
+.orginal .no img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
+}
+
